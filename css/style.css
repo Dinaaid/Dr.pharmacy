@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: whitesmoke;
+    background-image: url('../assets/download.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #6f42c1;
+    position: relative;
+    
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 20px ;
+
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/hero_home_bg_1.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+header img {
+    align-self: flex-start;
+    margin-left: 0px;
+}
+
+article h1 {
+    margin: 0px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 100px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+article input {
+    border: none;
+    font-size: large;
+    padding: 15px;
+    margin: 0px;
+    width: 400px;
+}
+
+.search {
+    cursor: pointer;
+    margin-left: -5px;
+    background: #74d1c6;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+
+.search:hover {
+    background-color: #e74e84;
+}
+#page {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    background-color: #f5f8fa;
+    padding: 120px 0px 95px 0px;
+}
+
+#page .Find,.view,.bdel {
+    background-color: white;
+    height: 298px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px  rgba(128, 128, 128, 0.459);
+}
+
+.find {
+   width: 100%;
+}
+
+#page input {
+    background-color: #e74e84;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 0px;
+    border-radius: 30px;
+    align-self: center;
+    justify-content: center;
+    margin: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#page input:hover {
+    background-color: #74d1c6;
+    font-size: large;
+
+}
+
+#list {
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#inf {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    margin-top: 
+}
