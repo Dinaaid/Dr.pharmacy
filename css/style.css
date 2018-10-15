@@ -39,6 +39,7 @@ article h1 {
     color: white;
     font-size: 100px;
     font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
 }
 
 article input {
@@ -66,8 +67,8 @@ article input {
     justify-content: center;
     align-items: center; 
     flex-wrap: wrap;
-    background-color: #f5f8fa;
     padding: 120px 0px 95px 0px;
+    background-color: #e8f2f8;
 }
 
 #page .Find,.view,.bdel {
@@ -115,4 +116,17 @@ article input {
     width: 100%;
     margin: 0px;
     margin-top: 
+}
+
+#list {
+    height: 500px;
+    margin: 0px;
+    padding: 120px 0px 50px 0px;
+    background-color: white;
+}
+
+h2 {
+    margin: 0px;
+    font-size: xx-large;
+    font-family: 'Cormorant Garamond', serif;
 }
