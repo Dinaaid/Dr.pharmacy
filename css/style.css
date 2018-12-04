@@ -66,6 +66,8 @@ article h1 {
     color: white;
     font-size: 100px;
     font-family: 'Marck Script', cursive;
+    text-shadow: 5px 5px 10px black;
+
 }
 
 header article input {
@@ -96,6 +98,12 @@ header article input {
     flex-wrap: wrap;
     padding: 120px 0px 95px 0px;
     background-color: #e8f2f8;
+    
+}
+
+#page article p {
+    width: 80%;
+    display: inline-block;
 }
 
 #page .Find,.view,.bdel {
@@ -156,6 +164,7 @@ header article input {
     margin: 30px;
     font-weight: bold;
     cursor: pointer;
+    text-shadow: 1px 1px 3px black;
 }
 
 #page input:hover {
@@ -168,6 +177,7 @@ header article input {
     color: #e74e84;
     font-size: x-large;
     margin-bottom: 5px;
+    text-shadow: 1px 1px 2px black;
 }
 
 #page p {
@@ -183,7 +193,9 @@ header article input {
     justify-content: space-around;
     align-items: center;
     color: #e8f2f8;
-    background-color: #3637688c;;
+    background-color: #3637688c;
+    text-shadow: 2px 2px 5px black;
+
 }
 
 #inf article {
@@ -255,6 +267,9 @@ header article input {
 .Services article {
     width: 65%;
     height: 400px;
+    text-align: start;
+    text-shadow: 2px 2px 5px black;
+
 }
 
 /* .Services div section {
@@ -327,7 +342,6 @@ header article input {
     background-image: url('../assets/undraw_to_do_list_a49b.svg');
     background-position: center;
     background-size: cover;
-    
 }
 
 #list article {
@@ -335,9 +349,7 @@ header article input {
     z-index: 2;
     top: 10%;
     left: 20px;
-    width: 70%;
-
-    
+    width: 70%;   
 }
 
 #list p {
@@ -352,6 +364,7 @@ header article input {
     font-size: 60px;
     text-align: start;
     padding-bottom: 40px; 
+    text-shadow: 3px 3px 9px black;
 }
 
 #list input {
@@ -364,10 +377,54 @@ header article input {
     width: 400px;
     border-radius: 10px;
     background-color: #03aa96;
+
 }
 
-footer {
+#list input:hover {
+    background-color: #e74e84;
+    font-family: 'Marck Script', cursive;
+    font-size: xx-large;
+}
+
+.endpage {
+    height: 50vh;
+    width: 100%;
+    background-color: #e8f2f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+}
+
+.endpage .endX a{
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: none;
+}
+
+.endpage div {
+    width: 33%;
+}
+
+.endpage .contactX h3 {
+    padding-bottom: 20px;
+}
+
+
+
+.endpage .linkX li a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.endpage .linkX a:hover {
+    color: #e74e84;
+}
+
+/* footer {
     height: 50vh;
     width: 100%;
     background-color: #e8f2f8;    
-}
+} */
