@@ -4,19 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/dr.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logonav.png" type="image/x-icon">
     <title>Dr.pharmacy</title>
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script|Seaweed+Script" rel="stylesheet">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-        <img class="logo" src="assets/dr-logo.png" alt="">
     <header>
-    <article>
-        <h1>FIND A MADICINE!</h1>
-        <input type="search" placeholder="enter name medicine...">
-        <input class="search" type="submit" value="search" >
-    </article>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand d-flex" href="#">
+                <img src="assets/logonav.png" alt="logo-pharmacy">
+                <h2>Pharmacy</h2></a>
+            <button class="navbar-toggler justify-" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" nav nav-fill navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <article>
+            <h1>Find A Madicine!</h1>
+            <input type="search" placeholder="enter name medicine...">
+            <input class="search" type="submit" value="search" >
+        </article>
     </header>
     <div id="page">
         <article>
@@ -24,20 +58,98 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti iure sint temporibus necessitatibus commodi nemo harum repudiandae illum? Iure totam magnam iusto minima magni neque veritatis ad autem incidunt voluptatum.</p>
         </article>
 
-        <div class="Find"></div>
-        <div class="view"></div>
-        <div class="bdel"></div>
+        <div class="Find">
+            <section></section>
+            <h3>Search a Madicine </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla neque numquam vel recusandae laboriosam earum</p>
+        </div>
+        <div class="view">
+            <section></section>
+            <h3> View </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque consequuntur soluta qui? Expedita delectus</p>
+        </div>
+        <div class="bdel">
+            <section></section>
+            <h3>Book a Madicine</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis laborum soluta, nam distinctio nisi</p>
+        </div>
         <div class="find"> 
-            <input  type="submit" value="find madicine">
+            <input  type="submit" value="find a madicine">
+        </div>
+    </div>
+    <div id="inf">
+        <article>
+            <h2>Information on Medicines?!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo mollitia doloribus accusamus in expedita quidem ratione nihil! Dolor, aliquam voluptas? Obcaecati quisquam magnam iure, velit dolore porro veritatis nulla!</p>
+        </article>
+        <section>
+            <h3>Badel</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nisi omnis deleniti, maiores nobis assumenda, laborum, voluptatem totam repellat et doloremque dolores cumque ea ratione fugit dolorem. Ratione, natus dignissimos.</p>
+        </section>
+        <section>
+            <h3>Masel</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non distinctio ipsam consequuntur sunt dolore, fugit dolor fugiat. Soluta enim modi animi accusamus magni minima beatae, sint omnis! Et, soluta tenetur.</p>
+
+        </section>
+    </div>
+    <div class="our">
+        <div class="Services">
+            <h2>Our Services</h2>
+            <div>
+                <section class="pressure"></section>
+                <article>
+                    <h3>Pressure Gauge</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam, et culpa, officia delectus quidem ratione sunt illum dolore veritatis, mollitia debitis labore dolores similique deserunt amet corrupti consequatur! Tempora!</p>
+                </article>
+            </div>
+            <div>
+                <section class="sugar"></section>
+                <article>
+                    <h3>Sugar Gauge</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga suscipit error, delectus quaerat similique ea corrupti est debitis atque architecto, tenetur cum optio quos tempore deleniti expedita iure! Dolore, consectetur?</p>
+                </article>
+            </div>
+            <div>
+                <section class="Bandaid"></section>
+                <article>
+                    <h3>Band Aid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, distinctio? Exercitationem, praesentium dicta. Eligendi ad, doloribus voluptatem soluta dignissimos nulla ab esse tempora, deleniti iusto beatae eius consequatur. Animi, unde.</p>
+                </article>
+            </div>
+            <div>
+                <section class="medical"></section>
+                <article>
+                    <h3>Installation Of Medications</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum vero sed tenetur omnis officiis voluptas, temporibus distinctio ducimus sequi excepturi. Odit quis tempora, illo dolorum dolorem explicabo a accusamus doloremque!</p>
+                </article>
+            </div>
+            <div>
+                <section class="body"></section>
+                <article>
+                    <h3>In Body</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique beatae magnam, sint vitae saepe officiis mollitia tempore ratione quia? Sed, consequuntur fugiat! Expedita, vitae. Recusandae sed voluptatem ad magnam minus.</p>
+                </article>
+            </div>
+            <div>
+                <section class="delivery"></section>
+                <article>
+                    <h3>Delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, voluptate nam. Impedit veniam fuga iste sequi beatae ea odit autem dolor quisquam maxime, in asperiores, cumque ducimus ex sunt saepe?</p>
+                </article>
+            </div>
         </div>
     </div>
     <div id="list">
-        <h2>Monthly List of Shortest Medications</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis unde nihil eos nostrum repudiandae temporibus porro hic dicta facere, ut neque vero voluptate est odio placeat? Rerum in facilis magni.</p>
+            <article>
+                <h2>Monthly List of Shortest Medications</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis unde nihil eos nostrum repudiandae temporibus porro hic dicta facere, ut neque vero voluptate est odio placeat? Rerum in facilis magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, veritatis sapiente? Obcaecati provident, ducimus asperiores deleniti suscipit aliquid similique molestiae dolorem quisquam in reprehenderit voluptatibus sequi dolores dolore cupiditate ullam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, voluptatibus. Accusantium illum obcaecati error consequuntur? Laborum quis hic necessitatibus voluptate ipsum voluptatum placeat repellat commodi, cupiditate illo sunt ullam debitis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsum nihil atque odit nostrum suscipit eum? Expedita, non commodi, rem quasi recusandae porro eius saepe repellat dolore quae, reiciendis dolorum!Lorem</p>
+                <input type="submit" value="list Medicin">
+            </article>
+           <section></section>
     </div>
-    <div id="inf">
-        <h2>Information on Medicines</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo mollitia doloribus accusamus in expedita quidem ratione nihil! Dolor, aliquam voluptas? Obcaecati quisquam magnam iure, velit dolore porro veritatis nulla!</p>
-  <script src="js/script.js"></script>  
+    <footer>
+        <img src="assets/logonav.png" alt="logo-pharmacy">
+    </footer>
+    <script src="js/script.js"></script>  
 </body>
 </html>
