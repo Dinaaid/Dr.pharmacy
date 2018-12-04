@@ -196,7 +196,7 @@ header article input {
 }
 
 #inf p {
-    font-size: x-large;
+    font-size: large;
     font-size-adjust: 0.58;
 }
 
@@ -209,7 +209,7 @@ header article input {
 }
 
 #inf section h3 {
-    font-size: 40px;
+    font-size: XX-large;
 }
 
 .our {
@@ -224,7 +224,7 @@ header article input {
 }
 
 .Services {
-    height: 80%;
+    height: 90%;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -253,8 +253,8 @@ header article input {
 }
 
 .Services article {
-    width: 50%;
-    height: 300px;
+    width: 65%;
+    height: 400px;
 }
 
 /* .Services div section {
@@ -342,7 +342,7 @@ header article input {
 
 #list p {
     width: 80%;
-    font-size: x-large;
+    font-size: large;
     text-align: start;
     text-shadow: 2px 2px 5px black;
 }
