@@ -101,6 +101,11 @@ header article input {
     
 }
 
+#page article h2 {
+    font-family:'Seaweed Script', cursive;
+    font-size: 50px;
+}
+
 #page article p {
     width: 80%;
     display: inline-block;
@@ -409,22 +414,25 @@ header article input {
 
 .endpage .contactX h3 {
     padding-bottom: 20px;
+    text-align: center;
 }
-
-
 
 .endpage .linkX li a {
     text-decoration: none;
     color: gray;
+    font-size: large;
+}
 
+.endpage .linkX li {
+    list-style: none;
 }
 
 .endpage .linkX a:hover {
     color: #e74e84;
 }
 
-/* footer {
-    height: 50vh;
-    width: 100%;
-    background-color: #e8f2f8;    
-} */
+footer {
+    text-align: center;
+    font-size: small; 
+    color: #e8f2f8;   
+}
