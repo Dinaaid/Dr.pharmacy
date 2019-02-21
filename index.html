@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="assets/logonav.png" type="image/x-icon">
-    <title>Dr.pharmacy</title>
+    <title>Pharmacy</title>
     <link href="https://fonts.googleapis.com/css?family=Marck+Script|Seaweed+Script" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand d-flex" href="#">
                 <img src="assets/logonav.png" alt="logo-pharmacy">
@@ -46,10 +43,10 @@
                 </ul>
             </div>
         </nav>
-        <article>
-            <h1>Find A Madicine!</h1>
-            <input type="search" placeholder="enter name medicine...">
-            <input class="search" type="submit" value="search" >
+        <article class="row justify-content-center">
+            <h1 class="col-sm-12">Find A Madicine!</h1>
+            <input type="search" class="col-sm-8 col-md-5" placeholder="enter name medicine...">
+            <input class="search col-sm-3 col-md-2" type="submit" value="search" >
         </article>
     </header>
     <div id="page">
@@ -77,32 +74,118 @@
             <input  type="submit" value="find a madicine">
         </div>
     </div>
-    <div id="inf">
-        <article>
-            <h2>Information on Medicines?!</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo mollitia doloribus accusamus in expedita quidem ratione nihil! Dolor, aliquam voluptas? Obcaecati quisquam magnam iure, velit dolore porro veritatis nulla!</p>
-        </article>
-        <section>
-            <h3>Badel</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nisi omnis deleniti, maiores nobis assumenda, laborum, voluptatem totam repellat et doloremque dolores cumque ea ratione fugit dolorem. Ratione, natus dignissimos.</p>
-        </section>
-        <section>
-            <h3>Masel</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non distinctio ipsam consequuntur sunt dolore, fugit dolor fugiat. Soluta enim modi animi accusamus magni minima beatae, sint omnis! Et, soluta tenetur.</p>
 
-        </section>
+              <!-- inf -->
+
+    <div class="inf container ">
+        <div class="article row">
+            <h2 class="col-sm-12">Information on Medicines?!</h2>
+            <p class="col-sm-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo mollitia doloribus accusamus in expedita quidem ratione nihil! Dolor, aliquam voluptas? Obcaecati quisquam magnam iure, velit dolore porro veritatis nulla!</p>
+        </div>
+        <div class="row justify-content-between">
+            <div class=" badel col-sm-5">
+                <h3>Badel</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nisi omnis deleniti, maiores nobis assumenda, laborum, voluptatem totam repellat et doloremque dolores cumque ea ratione fugit dolorem. Ratione, natus dignissimos.</p>
+            </div>
+            <div class=" badel col-sm-5">
+                <h3>Badel</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nisi omnis deleniti, maiores nobis assumenda, laborum, voluptatem totam repellat et doloremque dolores cumque ea ratione fugit dolorem. Ratione, natus dignissimos.</p>
+            </div>
+        </div>
     </div>
-    <div class="our">
-        <div class="Services">
-            <h2>Our Services</h2>
-            <div>
-                <section class="pressure"></section>
+    <!-- <div class="card-group inf">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+    </div>     -->
+    <!-- <div id="inf" class="container align-content-center">
+        <article class="row text-xl-center">
+            <h2 class="col-sm-12">Information on Medicines?!</h2>
+        <p class="col-sm-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo mollitia doloribus accusamus in expedita quidem ratione nihil! Dolor, aliquam voluptas? Obcaecati quisquam magnam iure, velit dolore porro veritatis nulla!</p>
+        </article>
+        <div class="row  justify-content-between">
+            <section class="col-sm-12">
+                <h3>Badel</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nisi omnis deleniti, maiores nobis assumenda, laborum, voluptatem totam repellat et doloremque dolores cumque ea ratione fugit dolorem. Ratione, natus dignissimos.</p>
+            </section>
+            <section class="col-sm-6">
+                <h3>Masel</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non distinctio ipsam consequuntur sunt dolore, fugit dolor fugiat. Soluta enim modi animi accusamus magni minima beatae, sint omnis! Et, soluta tenetur.</p>
+    
+            </section>
+        </div>
+    </div> -->
+    <div class="our container-fluid">
+        <div class="Services container">
+            <div class="row col-sm-12">
+                <h2>Our Services</h2>
+            </div>
+            <div class="row">
+                <div class="media col-sm-12 col-md-12 col-lg-6">
+                    <div class="img1 d-flex mr-3"></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 font-weight-bold">Media heading</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+                <div class="media col-sm-12 col-md-12 col-lg-6">
+                    <div class="img2 d-flex mr-3"></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 font-weight-bold">Media heading</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="media col-sm-12 col-md-12 col-lg-6">
+                    <div class="img3 d-flex mr-3"></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 font-weight-bold">Media heading</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+                <div class="media col-sm-12 col-md-12 col-lg-6">
+                    <div class="img4 d-flex mr-3"></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 font-weight-bold">Media heading</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="media col-sm-12 col-md-12 col-lg-6">
+                    <div class="img5 d-flex mr-3"></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 font-weight-bold">Media heading</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+                <div class="media col-sm-12 col-md-12 col-lg-6">
+                    <div class="img6 d-flex mr-3"></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 font-weight-bold">Media heading</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+                <!-- <section class="pressure"></section>
                 <article>
                     <h3>Pressure Gauge</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam, et culpa, officia delectus quidem ratione sunt illum dolore veritatis, mollitia debitis labore dolores similique deserunt amet corrupti consequatur! Tempora!</p>
-                </article>
-            </div>
-            <div>
+                </article> -->
+            
+            <!-- <div>
                 <section class="sugar"></section>
                 <article>
                     <h3>Sugar Gauge</h3>
@@ -136,44 +219,49 @@
                     <h3>Delivery</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, voluptate nam. Impedit veniam fuga iste sequi beatae ea odit autem dolor quisquam maxime, in asperiores, cumque ducimus ex sunt saepe?</p>
                 </article>
-            </div>
-        </div>
-    </div>
-    <div id="list">
-            <article>
-                <h2>Monthly List of Shortest Medications</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis unde nihil eos nostrum repudiandae temporibus porro hic dicta facere, ut neque vero voluptate est odio placeat? Rerum in facilis magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, veritatis sapiente? Obcaecati provident, ducimus asperiores deleniti suscipit aliquid similique molestiae dolorem quisquam in reprehenderit voluptatibus sequi dolores dolore cupiditate ullam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, voluptatibus. Accusantium illum obcaecati error consequuntur? Laborum quis hic necessitatibus voluptate ipsum voluptatum placeat repellat commodi, cupiditate illo sunt ullam debitis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsum nihil atque odit nostrum suscipit eum? Expedita, non commodi, rem quasi recusandae porro eius saepe repellat dolore quae, reiciendis dolorum!Lorem</p>
-                <input type="submit" value="list Medicin">
-            </article>
-           <section></section>
-    </div>
-    <div class="endpage">
-        <div class="endX">
+            </div>-->
+       
+
+
+    <!-- <div id="list" class="container-fluid">
+        <article>
+            <h2>Monthly List of Shortest Medications</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis unde nihil eos nostrum repudiandae temporibus porro hic dicta facere, ut neque vero voluptate est odio placeat? Rerum in facilis magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, veritatis sapiente? Obcaecati provident, ducimus asperiores deleniti suscipit aliquid similique molestiae dolorem quisquam in reprehenderit voluptatibus sequi dolores dolore cupiditate ullam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, voluptatibus. Accusantium illum obcaecati error consequuntur? Laborum quis hic necessitatibus voluptate ipsum voluptatum placeat repellat commodi, cupiditate illo sunt ullam debitis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsum nihil atque odit nostrum suscipit eum? Expedita, non commodi, rem quasi recusandae porro eius saepe repellat dolore quae, reiciendis dolorum!Lorem</p>
+            <input type="submit" value="list Medicin">
+        </article>
+        <section></section>
+    </div> -->
+    <div class="endpage container-fluid">
+        <div class="endX row col-sm-4">
             <a href="#">
                 <img src="assets/logonav.png" alt="logo-pharmacy">
                 Pharmacy
             </a>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam similique quis rerum ut ipsum corporis adipisci perspiciatis libero ab inventore omnis fugiat ex, laboriosam impedit ipsam minima est magnam necessitatibus.</p>
         </div>
-        <div class="contactX">
+        <div class="contactX row col-sm-4 ">
             <h3>Contact</h3>
            <h6>Email: dinaaid3@gmail.com</h6>
            <h6>Phone: 01270011692</h6>
         </div>
-        <div class="linkX">
+        <div class="linkX row col-sm-4">
             <h3>Usefull Links</h3>
            <ul>
                 <li><a href="#">Home</a></li> 
                 <li> <a href="#">Our Services</a></li>
                 <li> <a href="#">About Us</a></li>
-                <li> <a href="#">Contact Us</a></li>
+                <li> <a href="#">News</a></li>
                 <li> <a href="#">Sing In</a></li>
            </ul>
         </div>
     </div>
+   
     <footer>
             &copy; all rights reserved Dina 2019
-    </footer>
+    </footer> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>  
 </body>
 </html>

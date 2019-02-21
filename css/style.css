@@ -17,7 +17,9 @@ body {
     margin: 20px ;
 
 }
-
+.container-fluid {
+    padding: 0px;
+}
 header {
     display: flex;
     align-items: center;
@@ -26,7 +28,16 @@ header {
     background-image: url('../assets/hero_home_bg_1.svg');
     background-position: center;
     background-size: cover;
+    /* position: relative; */
 }
+
+/* nav button {
+    position: fixed;
+    z-index: 1;
+    top:5%;
+    right: 20px;
+
+} */
 
 header nav {
     width: 100%;
@@ -46,27 +57,31 @@ header nav li:hover {
 }
 
 nav h2 {
-    font-size: xx-large;
+    font-size: x-large;
     padding-top:30px;
     padding-right: 30px; 
 }
 
 header article {
     padding-top: 70px;
+    width: 100%
 }
 
 header img {
     align-self: flex-start;
     margin-left: 0px;
+    padding-left: 0px;
 }
 
 article h1 {
     margin: 0px;
     margin-bottom: 30px;
     color: white;
-    font-size: 100px;
+    font-size: 80px;
     font-family: 'Marck Script', cursive;
     text-shadow: 5px 5px 10px black;
+    padding: 0px;
+    padding-right: 0px;
 
 }
 
@@ -75,7 +90,7 @@ header article input {
     font-size: large;
     padding: 15px;
     margin: 0px;
-    width: 400px;
+    width: 200px;
     border-radius: 10px;
 }
 
@@ -190,8 +205,34 @@ header article input {
     padding: 0px 10px;
 }
 
-#inf {
-    height: 80vh;
+.inf {
+    height: 100vh;
+    background-color: none;
+    color: #e8f2f8;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.inf h2 {
+    font-family:'Seaweed Script', cursive;
+    font-size: 50px;
+}
+
+.inf p {
+    height: auto;
+    font-size: large;
+    font-size-adjust: 0.58;
+}
+
+.badel {
+    height: auto;
+    border: 5px solid #e8f2f8;
+    border-radius: 20px;
+}
+
+/* #inf {
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -203,9 +244,7 @@ header article input {
 
 }
 
-#inf article {
-    width: 80%;
-}
+
 
 #inf h2 {
     font-family:'Seaweed Script', cursive;
@@ -218,7 +257,6 @@ header article input {
 }
 
 #inf section {
-    width: 30%;
     border: 5px solid #e8f2f8;
     border-radius: 20px;
     color: #e8f2f8;
@@ -227,7 +265,7 @@ header article input {
 
 #inf section h3 {
     font-size: XX-large;
-}
+} */
 
 .our {
     height: 150vh;
@@ -242,16 +280,16 @@ header article input {
 
 .Services {
     height: 90%;
-    width: 80%;
+    width: 90%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: wrap;
     background-color: #363768;
     border-radius: 20px;
 }
 
 .Services h2 {
-    height: 100px;
+    height:auto;
     width: 100%;
     color: #e8f2f8;
     font-family:'Seaweed Script', cursive;
@@ -260,7 +298,7 @@ header article input {
     margin: 0px;
 }
 
-.Services div {
+/* .Services div {
     display: flex;
     justify-content: space-around;
     align-content: space-between; 
@@ -275,14 +313,26 @@ header article input {
     text-align: start;
     text-shadow: 2px 2px 5px black;
 
-}
+} */
 
 /* .Services div section {
     width: 50%;
     height: 100%;
 } */
 
-.Services .pressure {
+.media {
+    height: auto;
+    color: #e8f2f8;
+    text-align: start;
+    text-shadow: 2px 2px 5px black;
+    margin: 10px auto;
+}
+
+h5 {
+    color: #03aa96;
+}
+
+.img1 {
     width: 100px;
     height: 100px;
     background-image: url('../assets/heart.svg');
@@ -290,7 +340,7 @@ header article input {
     background-size: cover;
 }
 
-.Services .sugar {
+.img2 {
     width: 100px;
     height: 100px;
     background-image: url('../assets/finger.svg');
@@ -298,7 +348,7 @@ header article input {
     background-size: cover;
 }
 
-.Services .Bandaid {
+.img3 {
     width: 100px;
     height: 100px;
     background-image: url('../assets/plaster\ \(2\).svg');
@@ -306,7 +356,7 @@ header article input {
     background-size: cover;
 }
 
-.Services .medical {
+.img4 {
     width: 100px;
     height: 100px;
     background-image: url('../assets/pharmacy.svg');
@@ -314,7 +364,7 @@ header article input {
     background-size: cover;
 }
 
-.Services .body {
+.img5 {
     width: 100px;
     height: 100px;
     background-image: url('../assets/arm.svg');
@@ -322,7 +372,7 @@ header article input {
     background-size: cover;
 }
 
-.Services .delivery {
+.img6 {
     width: 100px;
     height: 100px;
     background-image: url('../assets/24-hours-delivery.svg');
@@ -330,32 +380,31 @@ header article input {
     background-size: cover;
 }
 
-#list {
+/* #list {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 90vh;
+    height: 100vh;
     margin: 0px;
     color: #e8f2f8;
     position: relative;
     
 }
 
-#list section {
+ #list section {
     height: 80%;
     width: 51%;
     background-image: url('../assets/undraw_to_do_list_a49b.svg');
     background-position: center;
     background-size: cover;
 }
-
-#list article {
-    position: absolute;
-    z-index: 2;
+ #list article {
+    position: absolute; 
+    z-index: 2; 
     top: 10%;
     left: 20px;
     width: 70%;   
-}
+} 
 
 #list p {
     width: 80%;
@@ -389,11 +438,11 @@ header article input {
     background-color: #e74e84;
     font-family: 'Marck Script', cursive;
     font-size: xx-large;
-}
+} */
 
 .endpage {
     height: 50vh;
-    width: 100%;
+    
     background-color: #e8f2f8;
     display: flex;
     justify-content: space-around;
@@ -408,23 +457,49 @@ header article input {
     text-decoration: none;
 }
 
-.endpage div {
-    width: 33%;
+.endpage .contactX {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: start;
 }
 
-.endpage .contactX h3 {
+
+/* .endpage div {
+    width: 25%;
+} */
+
+/* .endpage .contactX h3 {
     padding-bottom: 20px;
     text-align: center;
+} */
+
+.endpage .linkX {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.endpage h3 {
+    color: #03aa96;
 }
 
 .endpage .linkX li a {
     text-decoration: none;
     color: gray;
-    font-size: large;
+    padding: 0px 10px;
 }
 
 .endpage .linkX li {
     list-style: none;
+    display: block;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+.endpage .linkX ul {
+    padding: 0px;
 }
 
 .endpage .linkX a:hover {
@@ -435,4 +510,20 @@ footer {
     text-align: center;
     font-size: small; 
     color: #e8f2f8;   
+} 
+
+@media screen and (max-width: 980px) {
+.our {
+    height: auto;
+}
+
+.Services {
+    height: auto;
+    margin: 15px auto;
+}
+
+.endpage {
+    height: auto;
+}
+
 }
