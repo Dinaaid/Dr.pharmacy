@@ -443,7 +443,6 @@ h5 {
 .endpage {
     height: 50vh;
     width: 100%;
-    /* background-color: #e8f2f8; */
     display: flex;
     justify-content: space-around;
     align-items: center;
