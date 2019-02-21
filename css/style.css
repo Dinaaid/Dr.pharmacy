@@ -538,6 +538,10 @@ footer {
 
 }
 
+.endpage h6 {
+    font-size: 10px;
+}
+
 /* .endpage .endX {
     width: 100%
 }
@@ -556,4 +560,5 @@ footer {
 header {
     height: auto;
 }
+
 }
