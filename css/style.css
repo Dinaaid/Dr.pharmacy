@@ -442,7 +442,7 @@ h5 {
 
 .endpage {
     height: 50vh;
-    
+    width: 100%;
     background-color: #e8f2f8;
     display: flex;
     justify-content: space-around;
@@ -465,9 +465,7 @@ h5 {
 }
 
 
-/* .endpage div {
-    width: 25%;
-} */
+
 
 .endpage .contactX h3 {
     padding-bottom: 20px;
@@ -524,9 +522,6 @@ footer {
     margin: 15px auto;
 }
 
-.endpage {
-    height: auto;
-}
 
 .inf {
     height: auto;
@@ -535,14 +530,13 @@ footer {
 .endpage {
     height: auto;
     font-size: 10px;
-
 }
 
 .endpage h6 {
     font-size: 10px;
 }
 
-/* .endpage .endX {
+.endpage .endX {
     width: 100%
 }
 
@@ -552,7 +546,7 @@ footer {
 
 .endpage .contactX {
     width: 100%;
-} */
+}
 
 }
 
