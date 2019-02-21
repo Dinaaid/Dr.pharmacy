@@ -100,6 +100,7 @@ header article input {
     color: white;
     font-weight: bold;
     width: 100px;
+    margin-left: 5px; 
 }
 
 .search:hover {
@@ -525,6 +526,15 @@ footer {
 
 .inf {
     height: auto;
+    padding: 10px;
+}
+
+.badel {
+    margin: 20px;
+}
+
+.badel h3 {
+    margin: 20px auto;
 }
 
 .endpage {
@@ -553,6 +563,10 @@ footer {
 @media screen and (max-width: 700px) {
 header {
     height: auto;
+}
+
+header article input {
+    margin: 10px;
 }
 
 }
