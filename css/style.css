@@ -451,7 +451,7 @@ h5 {
 }
 
 .endpage .endX a{
-    font-size: 45px;
+    font-size: 30px;
     color: white;
     text-shadow: 2px 2px 5px black;
     text-decoration: none;
@@ -469,10 +469,10 @@ h5 {
     width: 25%;
 } */
 
-/* .endpage .contactX h3 {
+.endpage .contactX h3 {
     padding-bottom: 20px;
     text-align: center;
-} */
+}
 
 .endpage .linkX {
     text-align: center;
@@ -513,6 +513,8 @@ footer {
 } 
 
 @media screen and (max-width: 980px) {
+
+
 .our {
     height: auto;
 }
@@ -526,4 +528,32 @@ footer {
     height: auto;
 }
 
+.inf {
+    height: auto;
+}
+
+.endpage {
+    height: auto;
+    font-size: 10px;
+
+}
+
+/* .endpage .endX {
+    width: 100%
+}
+
+.endpage .linkX {
+    width: 100%;
+}
+
+.endpage .contactX {
+    width: 100%;
+} */
+
+}
+
+@media screen and (max-width: 700px) {
+header {
+    height: auto;
+}
 }
