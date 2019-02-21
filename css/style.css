@@ -443,7 +443,7 @@ h5 {
 .endpage {
     height: 50vh;
     width: 100%;
-    background-color: #e8f2f8;
+    /* background-color: #e8f2f8; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -507,7 +507,8 @@ h5 {
 footer {
     text-align: center;
     font-size: small; 
-    color: #e8f2f8;   
+    color: #363768;  
+    background-color: #e8f2f8; 
 } 
 
 @media screen and (max-width: 980px) {
