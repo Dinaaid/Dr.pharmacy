@@ -1,0 +1,55 @@
+html,body {
+    height: 100vh;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: whitesmoke;
+    background-image: url('../assets/download.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #363768;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+nav {
+    height: auto;
+}
+
+header nav a {
+    font-size: x-large;
+    color: #e8f2f8;  
+}
+
+header nav li:hover {
+    background-color: #03aa978c;
+    border-radius: 5px;
+    
+}
+
+nav h2 {
+    font-size: x-large;
+    padding-top:30px;
+    padding-right: 30px; 
+}
+     /* end anv */
+
+h1 {
+    color: #03aa96;
+    font-family: 'Marck Script', cursive; 
+} 
+
+.imgx {
+    height: 200px;
+    width: 100%;
+    background-image: url(../assets/undraw_to_do_list_a49b.svg);
+    background-position: center;
+    background-size: cover;
+}

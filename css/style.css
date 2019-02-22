@@ -10,13 +10,13 @@ body {
     position: relative;
 }
 
-.logo {
+/* .logo {
     position: absolute;
     display: flex;
     justify-content: center;
     margin: 20px ;
 
-}
+} */
 .container-fluid {
     padding: 0px;
 }
@@ -46,14 +46,13 @@ header nav {
 header nav a {
     font-size: x-large;
     color: #e8f2f8;
-   
 }
+
+
 
 header nav li:hover {
     background-color: #03aa978c;
     border-radius: 5px;
-    color: #e74e84;
-
 }
 
 nav h2 {
