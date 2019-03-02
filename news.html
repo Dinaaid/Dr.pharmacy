@@ -17,29 +17,36 @@
             <a class="navbar-brand d-flex" href="#">
                 <img src="assets/logonav.png" alt="logo-pharmacy">
                 <h2>Pharmacy</h2></a>
-            <button class="navbar-toggler justify-" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class=" nav nav-fill navbar-nav mr-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#our">Our Services</a>
+                        <a class="nav-link" href="index.html#our">Our Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
+                    <div class="dropdown">
+                            <button class="btn dropdown-toggle"
+                                    type="button" id="dropdownMenu1" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Medicines Lists
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                              <a class="dropdown-item" href="news.html">All medicines</a>
+                              <a class="dropdown-item" href="#!">medicines not available</a>
+                            </div>
+                          </div>
+                    </li>      
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                     <li class="nav-items">
-                        <a class="nav-link" href="#">Sign In</a>
+                        <a class="nav-link" href="signin.html">Sign In</a>
                     </li>
                 </ul>
             </div>
@@ -49,8 +56,8 @@
         <div class="row">
             <h1>list medicin</h1>
         </div>
-        <div class="card-deck">
-            <div class="card">
+        <div class="row">
+            <div class="card col-lg-3 col-md-6">
               <div class="card-body">
                 <div class="imgx"></div>
                 <h4 class="card-title">Card title</h4>
@@ -65,21 +72,26 @@
                       </div>
               </div>
             </div>
-            <div class="card ">
+            <div class="card col-lg-3 col-md-6">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
               </div>
             </div>
-            <div class="card ">
+            <div class="card col-lg-3 col-md-6">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
             </div>
+            <div class="card col-lg-3 col-md-6">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+            </div>
           </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

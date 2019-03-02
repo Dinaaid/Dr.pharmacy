@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/logonav.png" type="image/x-icon">
+    <title>Pharmacy</title>
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Seaweed+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signin.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand d-flex" href="#">
+                <img src="assets/logonav.png" alt="logo-pharmacy">
+                <h2>Pharmacy</h2></a>
+            <button class="navbar-toggler justify-" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" nav nav-fill navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#our">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle"
+                                    type="button" id="dropdownMenu1" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Medicines Lists
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <a class="dropdown-item" href="news.html">All medicines</a>
+                                <a class="dropdown-item" href="#!">medicines not available</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link" href="signin.html">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+    <form class="container">
+        <div class="form-group col-sm-12 col-md-8">
+            <label for="formGroupExampleInput">Full Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="name">
+        </div>
+        <div class="form-group col-sm-12 col-md-8">
+                <label for="formGroupExampleInput2">Phone</label>
+                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Phone number">
+        </div>
+        <div class="form-group col-sm-12 col-md-8">
+            <label for="formGroupExampleInput2">Address</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Address">
+        </div>
+        <div class="form-group col-sm-12 col-md-8">
+            <label for="formGroupExampleInput2">Email</label>
+            <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+        </div>
+        <div class="form-group col-sm-12 col-md-8">
+            <label for="formGroupExampleInput2">Password</label>
+            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="password">
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10 offset-sm-2">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </div>
+    </form>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/singin.js"></script> 
+</body>
+</html>    

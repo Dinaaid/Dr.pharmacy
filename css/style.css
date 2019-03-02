@@ -72,6 +72,32 @@ header img {
     padding-left: 0px;
 }
 
+
+header nav .dropdown button {
+    color: #e8f2f8;
+    font-size: x-large;
+}
+
+header nav .dropdown button:hover {
+    background-color: #03aa978c;
+    color: #e8f2f8;
+}
+
+.dropdown-menu {
+    background: #03aa978c;
+}
+
+.dropdown-menu a {
+    color: #e8f2f8;
+    background: #03aa978c;
+
+}
+
+.dropdown-menu a:hover {
+   background-color: #363768;
+   color: #03aa96;
+}
+
 article h1 {
     margin: 0px;
     margin-bottom: 30px;
@@ -455,7 +481,7 @@ h5 {
     color: white;
     text-shadow: 2px 2px 5px black;
     text-decoration: none;
-    padding: 0px;
+  
 }
 
 .endpage .contactX {
@@ -463,7 +489,7 @@ h5 {
     flex-direction: column;
     align-content: center;
     text-align: start;
-    padding: 0px;
+   
 }
 
 
@@ -471,15 +497,15 @@ h5 {
 
 .endpage .contactX h3 {
     padding-bottom: 20px;
-    text-align: center;
+    text-align: start;
 }
 
 .endpage .linkX {
-    text-align: center;
+    text-align: start;
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding: 0px;
+    
 }
 
 .endpage h3 {
@@ -566,6 +592,7 @@ header article input {
     height: auto;
     font-size: 10px;
     display: flex;
+    align-content: flex-start;
     text-align: start;
 }
 
@@ -575,10 +602,16 @@ header article input {
 
 .endpage .linkX {
     width: 100%;
+    display: flex;
+    align-content: flex-start;
+    text-align: start;
 }
 
 .endpage .contactX {
     width: 100%;
+   
+    align-content: flex-start;
+    text-align: start;
 }
 
 }
