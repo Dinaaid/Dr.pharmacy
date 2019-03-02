@@ -255,6 +255,7 @@ header article input {
     height: auto;
     border: 5px solid #e8f2f8;
     border-radius: 20px;
+    padding: 20px;
 }
 
 /* #inf {
@@ -312,6 +313,7 @@ header article input {
     flex-wrap: wrap;
     background-color: #363768;
     border-radius: 20px;
+    padding: 25px;
 }
 
 .Services h2 {
@@ -320,7 +322,7 @@ header article input {
     color: #e8f2f8;
     font-family:'Seaweed Script', cursive;
     font-size: 100px;
-    padding-top: 20px;
+    
     margin: 0px;
 }
 
